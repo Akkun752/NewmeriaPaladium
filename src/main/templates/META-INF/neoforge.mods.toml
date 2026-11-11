@@ -1,0 +1,32 @@
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="Akkun"
+description='''
+Newmeria's Paladium: ore, ingot, block, tools, hammer and armor. Installed on the server and on the players' computers.
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="newmeriacore"
+    type="required"
+    reason="The Paladium Hammer mines 3x3 like the hammers of Newmeria Core."
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

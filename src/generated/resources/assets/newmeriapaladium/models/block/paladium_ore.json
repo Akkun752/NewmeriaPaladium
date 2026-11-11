@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "newmeriapaladium:block/paladium_ore"
+  }
+}

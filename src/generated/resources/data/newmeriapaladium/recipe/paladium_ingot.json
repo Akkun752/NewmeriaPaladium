@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredient": "newmeriapaladium:paladium_ore",
+  "result": {
+    "id": "newmeriapaladium:paladium_ingot"
+  }
+}

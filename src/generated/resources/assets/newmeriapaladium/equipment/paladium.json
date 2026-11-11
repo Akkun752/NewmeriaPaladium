@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "newmeriapaladium:paladium"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "newmeriapaladium:paladium"
+      }
+    ]
+  }
+}
